@@ -19,10 +19,12 @@ struct ContentView: View {
                                     
                 }) {
                     Text("+")
-                        .fontWeight(.heavy)
-                }
+                        .font(.largeTitle)
+                } //button display
+                Spacer()
             } // hstack
             .padding()
+            Spacer()
         } // vstack
     } // some view
 } // view
